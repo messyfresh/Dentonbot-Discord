@@ -1,0 +1,30 @@
+{
+  "name": "dentonbot-discord",
+  "version": "1.0.0",
+  "description": "Dentonbot is a chat bot that can look up Smite stats",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/messyfresh/Dentonbot-Discord.git"
+  },
+  "author": {
+    "name": "Scott Nix",
+    "email": "messyfresh@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/messyfresh/Dentonbot-Discord/issues"
+  },
+  "homepage": "https://github.com/messyfresh/Dentonbot-Discord#readme",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "uws": "^0.14.1"
+  },
+  "devDependencies": {
+    "debug": "^2.6.4"
+  }
+}
